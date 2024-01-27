@@ -64,7 +64,7 @@ function About() {
                 <Col xs={12} md={5}>
                   <p>Phone: +47 930 77 286</p>
                   <p>E-mail: florent.hajdari@hotmail.com</p>
-                  <p>Website: https://florent-coding.com</p>
+                  <p>Website: https://personal-website-seven-woad.vercel.app</p>
                 </Col>
               </Row>
             </Container>

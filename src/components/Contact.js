@@ -53,13 +53,13 @@ function Contact() {
             <div className="email">
               <span>
                 <FaEnvelope />
-                Email: florent.coding@gmail.com
+                Email: florent.hajdari@hotmail.com
               </span>
             </div>
             <div className="website">
               <span>
                 <FaGlobeEurope />
-                Website: florent-coding.com
+                Website: personal-website-seven-woad.vercel.app/
               </span>
             </div>
           </Col>
