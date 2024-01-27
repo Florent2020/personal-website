@@ -19,35 +19,42 @@ const projects = [
     id: 3,
     image: "./images/spaceX.png",
     project: "Galaxy SpaceX",
-    url: "https://florent-coding.com/SpaceX_Project/",
+    url: "https://space-x-project.vercel.app/",
   },
   {
     id: 4,
+    image:
+      "./images/laiout.png",
+    project: "Laiout",
+    url: "https://laiout-one.vercel.app/",
+  },
+  {
+    id: 5,
     image:
       "./images/galaxy_science_museum.png",
     project: "Galaxy Science Museum",
     url: "https://florent-coding.com/Galaxy_Science_Museum/",
   },
   {
-    id: 5,
+    id: 6,
     image: "./images/nucleus.png",
     project: "Nucleus",
     url: "https://florent-coding.com/Nucleus/",
   },
   {
-    id: 6,
+    id: 7,
     image: "./images/letha.png",
     project: "Letha Shoemaker",
     url: "https://florent-coding.com/Letha_Shoemaker/",
   },
   {
-    id: 7,
+    id: 8,
     image: "./images/YAY.png",
     project: "The YAY Company",
     url: "https://florent-coding.com/The_YAY_Company/",
   },
   {
-    id: 8,
+    id: 9,
     image:
       "./images/aqua-pharm.png",
     project: "Aqua Pharm",
