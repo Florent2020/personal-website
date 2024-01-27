@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #dedede;
+}
+
+body {
+  font-family: "Gotu", sans-serif !important;
+}
+
+
+.subheading {
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .subheading {
+    padding: 30px 20px;
+    text-align: left;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #20555b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #17373b;
+}
