@@ -30,31 +30,38 @@ const projects = [
   },
   {
     id: 5,
-    image:
-      "./images/galaxy_science_museum.png",
-    project: "Galaxy Science Museum",
-    url: "https://florent-coding.com/Galaxy_Science_Museum/",
+    image: "./images/nucleus.png",
+    project: "Nucleus",
+    url: "https://nucleus-tau.vercel.app/",
   },
   {
     id: 6,
-    image: "./images/nucleus.png",
-    project: "Nucleus",
-    url: "https://florent-coding.com/Nucleus/",
+    image: "./images/letha.png",
+    project: "Letha Shoemaker",
+    url: "https://letha-shoes-sandy.vercel.app/",
   },
   {
     id: 7,
-    image: "./images/letha.png",
-    project: "Letha Shoemaker",
-    url: "https://florent-coding.com/Letha_Shoemaker/",
+    image: "./images/YAY.png",
+    project: "The YAY Company",
+    url: "https://yay-company.vercel.app/",
   },
   {
     id: 8,
-    image: "./images/YAY.png",
-    project: "The YAY Company",
-    url: "https://florent-coding.com/The_YAY_Company/",
+    image:
+      "./images/home-decor.png",
+    project: "Home Decor",
+    url: "https://home-decor-one.vercel.app/",
   },
   {
     id: 9,
+    image:
+      "./images/winter-sports.png",
+    project: "Winter Sports",
+    url: "https://winter-sports.vercel.app/",
+  },
+  {
+    id: 10,
     image:
       "./images/aqua-pharm.png",
     project: "Aqua Pharm",
