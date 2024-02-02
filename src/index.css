@@ -15,17 +15,18 @@ html,
 body {
   height: 100%;
   box-sizing: border-box;
-  background-color: #dedede;
+  background-color: #000;
+  /* background-color: #dedede; */
 }
 
 body {
   font-family: "Gotu", sans-serif !important;
 }
 
-
 .subheading {
   padding-bottom: 30px;
   font-size: 50px;
+  color: #fff !important;
 }
 
 @media screen and (max-width: 768px) {

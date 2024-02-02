@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import styled from "styled-components";
 import AboutBanner from "../images/aboutBanner.jpg";
-import {Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 // import Row from "react-bootstrap/Row";
 // import Col from "react-bootstrap/Col";
 import Myself from "../images/myself.jpg";
@@ -299,6 +299,7 @@ const Wrapper = styled.section`
   padding: 50px 0;
 
   .info {
+    color: #fff;
     padding-bottom: 50px;
     max-width: 870px;
     font-size: 25px;
@@ -465,13 +466,13 @@ const Wrapper = styled.section`
     padding: 0 10px;
 
     .row {
-      display: flex!important;
-    justify-content: space-between;
+      display: flex !important;
+      justify-content: space-between;
     }
 
     .col-md-8 {
       width: 100%;
-    margin-right: 200px;
+      margin-right: 200px;
     }
 
     .col-md-4 {
@@ -501,8 +502,8 @@ const Wrapper = styled.section`
     padding: 0 10px;
 
     .row {
-      display: flex!important;
-    justify-content: space-between;
+      display: flex !important;
+      justify-content: space-between;
       margin-bottom: 40px;
     }
 
@@ -512,7 +513,7 @@ const Wrapper = styled.section`
 
     .col-md-9 {
       width: 100%;
-    margin-right: 200px;
+      margin-right: 200px;
     }
 
     .col-md-3 {
@@ -534,8 +535,6 @@ const Wrapper = styled.section`
     p {
       margin-bottom: 0;
     }
-
-    
   }
 
   // Experience
@@ -562,7 +561,6 @@ const Wrapper = styled.section`
       display: flex !important;
       justify-content: space-between;
       margin-bottom: 20px;
-      
     }
 
     .row:last-of-type {
@@ -571,7 +569,7 @@ const Wrapper = styled.section`
 
     .col-md-8 {
       width: 100%;
-    margin-right: 450px;
+      margin-right: 450px;
     }
 
     .col-md-4 {
@@ -632,8 +630,8 @@ const Wrapper = styled.section`
       }
 
       .row {
-      margin-bottom: 40px;
-    }
+        margin-bottom: 40px;
+      }
     }
 
     img {

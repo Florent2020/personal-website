@@ -50,12 +50,14 @@ function Projects() {
           return (
             <article className={position} key={id}>
               <img src={image} alt={project} className="project-img" />
-              <h4>{project}</h4>
-              <button className="view-project">
-                <a href={url} target="_blank" rel="noreferrer">
-                  View Project
-                </a>
-              </button>
+              <div className="info_project">
+                <h4>{project}</h4>
+                <button className="view-project">
+                  <a href={url} target="_blank" rel="noreferrer">
+                    View More
+                  </a>
+                </button>
+              </div>
             </article>
           );
         })}
@@ -75,11 +77,28 @@ export default Projects;
 
 const Wrapper = styled.section`
   padding: 50px 0;
+  background: #0a0909;
+
+  h2 {
+    color: #fff !important;
+  }
 
   .section {
     width: 90vw;
     margin: 5rem auto;
     max-width: 1170px;
+  }
+
+  .info_project {
+    position: absolute;
+    top: 350px;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    /* background: #000; */
+    background: #004d49;
+    padding: 15px;
+    opacity: 0.95;
   }
 
   @media screen and (min-width: 992px) {
@@ -92,7 +111,7 @@ const Wrapper = styled.section`
     margin: 0 auto;
     margin-top: 4rem;
     width: 80vw;
-    height: 450px;
+    height: 550px;
     max-width: 800px;
     text-align: center;
     position: relative;
@@ -103,26 +122,34 @@ const Wrapper = styled.section`
   .project-img {
     margin-bottom: 1rem;
     width: 100%;
-    height: 160px;
+    height: 400px;
     object-fit: cover;
-    border: 2px solid #20555b;
+    border: 1px solid #20555b;
   }
 
   h4 {
-    font-size: 25px;
+    font-size: 22px;
+    color: #fff;
   }
 
   .view-project {
-    background-color: #20555b;
+    background-color: #0c0c0c;
     border: none;
-    padding: 10px 15px;
-    margin-top: 20px;
+    padding: 7px 15px;
+    margin-top: 15px;
+    border: 2px solid #fff;
 
     a {
       color: #fff;
-      font-size: 16px;
+      font-size: 14px;
       font-family: "Gotu", sans-serif !important;
     }
+  }
+
+  .view-project:hover {
+    background: #004d49;
+    cursor: pointer;
+    transition: all 0.3s linear;
   }
 
   .prev,
@@ -144,13 +171,13 @@ const Wrapper = styled.section`
   }
   .prev:hover,
   .next:hover {
-    background: #ba5d2c;
+    background: #068071;
   }
   .prev {
-    left: 0;
+    left: 25px;
   }
   .next {
-    right: 0;
+    right: 25px;
   }
 
   .project_img {
@@ -162,15 +189,16 @@ const Wrapper = styled.section`
   }
 
   @media (min-width: 800px) {
-    .project-img {
+    /* .project-img {
       width: 340px;
-    }
+    } */
 
     .prev,
     .next {
-      width: 2rem;
-      height: 2rem;
-      font-size: 1.5rem;
+      width: 2.2rem;
+      height: 2.2rem;
+      font-size: 1.9rem;
+      border-radius: 50%;
     }
 
     .project_img {
