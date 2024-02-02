@@ -59,7 +59,7 @@ function Contact() {
             <div className="website">
               <span>
                 <FaGlobeEurope />
-                Website: personal-website-seven-woad.vercel.app/
+                Website: https://florent-hajdari.vercel.app/
               </span>
             </div>
           </Col>
@@ -105,7 +105,6 @@ function Contact() {
 export default Contact;
 
 const Wrapper = styled.div`
-
   padding: 50px 0;
 
   .row {
@@ -132,10 +131,9 @@ const Wrapper = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-
     .row {
-    display: block;
-  }
+      display: block;
+    }
 
     .col-md-5 {
       width: 100%;
@@ -144,7 +142,7 @@ const Wrapper = styled.div`
 
     .col-md-7 {
       padding: 40px 20px;
-  }
+    }
   }
 
   .col-md-5.col-12 {
